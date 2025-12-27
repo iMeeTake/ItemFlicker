@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/imeetake/itemflicker/mixin/ItemEntityRendererMixin": {
+      "submit(Lnet/minecraft/client/renderer/entity/state/ItemEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/CameraRenderState;)V": "Lnet/minecraft/class_916;method_3996(Lnet/minecraft/class_10039;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;Lnet/minecraft/class_12075;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/imeetake/itemflicker/mixin/ItemEntityRendererMixin": {
+        "submit(Lnet/minecraft/client/renderer/entity/state/ItemEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/CameraRenderState;)V": "Lnet/minecraft/class_916;method_3996(Lnet/minecraft/class_10039;Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;Lnet/minecraft/class_12075;)V"
+      }
+    }
+  }
+}

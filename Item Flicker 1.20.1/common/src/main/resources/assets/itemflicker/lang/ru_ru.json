@@ -1,0 +1,7 @@
+{
+    "text.autoconfig.itemflicker.title": "Настройки Item Flicker",
+    "text.autoconfig.itemflicker.option.secondsBeforeDespawn": "Начало мигания (сек. до исчезновения)",
+    "text.autoconfig.itemflicker.option.flickerSpeedPercent": "Скорость мигания (%)",
+
+    "modmenu.descriptionTranslation.itemflicker": "Выброшенные предметы мигают перед исчезновением."
+}

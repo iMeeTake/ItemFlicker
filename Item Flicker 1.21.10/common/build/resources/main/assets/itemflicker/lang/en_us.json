@@ -1,0 +1,7 @@
+{
+    "text.autoconfig.itemflicker.title": "Item Flicker Settings",
+    "text.autoconfig.itemflicker.option.secondsBeforeDespawn": "Flicker start (sec. before despawn)",
+    "text.autoconfig.itemflicker.option.flickerSpeedPercent": "Flicker speed (%)",
+
+    "modmenu.descriptionTranslation.itemflicker": "Dropped items flicker before disappearing."
+}

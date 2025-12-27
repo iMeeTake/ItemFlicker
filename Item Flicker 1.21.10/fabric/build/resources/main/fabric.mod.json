@@ -1,0 +1,51 @@
+{
+    "schemaVersion": 1,
+    "id": "itemflicker",
+    "version": "1.0.0-1.21.10",
+    "name": "Item Flicker",
+    "description": "modmenu.descriptionTranslation.itemflicker",
+    "authors": [
+        "iMeeTake"
+    ],
+    "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/itemflicker",
+        "sources": "https://github.com/iMeeTake/ItemFlicker",
+        "issues": "https://github.com/iMeeTake/ItemFlicker/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/itemflicker/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.imeetake.itemflicker.fabric.ItemFlickerFabric"
+        ],
+        "client": [
+            "com.imeetake.itemflicker.fabric.client.ItemFlickerFabricClient"
+        ],
+        "modmenu": [
+            "com.imeetake.itemflicker.fabric.ItemFlickerModMenu"
+        ]
+    },
+    "mixins": [
+        "itemflicker.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "1.21.10",
+        "java": ">=21",
+        "architectury": ">=18.0.6",
+        "fabric-api": "*",
+        "cloth-config": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.modrinth": "https://modrinth.com/mod/itemflicker",
+                "modmenu.discord": "https://discord.gg/ZBzupfYZ6K"
+            }
+        }
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}

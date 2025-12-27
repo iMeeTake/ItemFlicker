@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "itemflicker"
+version = "1.0.0-1.20.1"
+displayName = "Item Flicker"
+authors = "iMeeTake"
+description = '''
+Dropped items flicker before disappearing.
+'''
+#logoFile = ""
+
+[[dependencies.itemflicker]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.itemflicker]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.itemflicker]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,220 @@
+[17:21:50] [main/INFO] (Entrypoint) JVM Uptime at startup: 2143ms
+[17:21:50] [main/INFO] (FMLLoader) Starting FancyModLoader version 10.0.29 (CLIENT in DEV)
+[17:21:50] [main/INFO] (FMLLoader) Game directory: /Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/run
+[17:21:50] [main/INFO] (EarlyServiceDiscovery) Found 2 early service jars (out of 121) in 9ms
+[17:21:50] [main/INFO] (FMLLoader) Loading FML Early Services:
+[17:21:50] [main/INFO] (FMLLoader)  - /Users/arseniyradaev/.gradle/caches/fabric-loom/forge/transformed-dependencies-v1/net/neoforged/fancymodloader/691fb50f520a1442ae5c3385ef06b1e55e9d782a2453de9df39a9d13ecffff10/loader/10.0.29/loader-10.0.29.jar
+[17:21:50] [main/INFO] (FMLLoader)  - /Users/arseniyradaev/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.29/6268812ffd0c16cc1eea921b2335d58585384574/earlydisplay-10.0.29.jar
+[17:21:50] [main/INFO] (ImmediateWindowHandler) Loading ImmediateWindowProvider fmlearlywindow
+[17:21:51] [main/WARN] (EARLYDISPLAY) Failed to set window icon: [0x1000C] Cocoa: Regular windows do not have icons on macOS
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (GameLocator) Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "client-extra.jar" [locator: game locator]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar" [locator: game locator]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (InDevFolderLocator) Got mod coordinates main%%/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/resources/main:main%%/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/classes/java/main:main%%/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/out/production/classes:main%%/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/out/production/resources from env
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "main" [locator: indevfolder, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "architectury-neoforge-d73ba8eb-18.0.6.jar" [locator: indevjar, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "cloth-config-neoforge-d73ba8eb-20.0.149-neoforge.jar" [locator: indevjar, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found mod file "2522686290825259085.jar" [locator: indevjar, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found gamelibrary file "mixinextras-neoforge-0.5.0.jar" [locator: indevjar, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/WARN] (JarSelector) Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using jar(/Users/arseniyradaev/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.0/d734b83ce6542bb70ea31755c1595b88992dbe65/mixinextras-neoforge-0.5.0.jar)
+[17:21:51] [fml-loadingscreen/INFO] (LoadingScreenRenderer) GL info: Apple M1 Pro GL version 4.1 Metal - 90.5, Apple
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (JarInJarDependencyLocator) Found 1 dependencies adding them to mods collection
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) Found library file "net.neoforged.neoforge-coremods-21.10.50-beta.jar" [parent: neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar, locator: jarinjar, reader: mod manifest]
+[17:21:51] [ForkJoinPool.commonPool-worker-6/INFO] (ModDiscoverer) 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 18.0.6 (architectury)
+		Cloth Config v20 API 20.0.149 (cloth_config)
+		generated_b394c20 1 (generated_b394c20)
+		Item Flicker 1.0.0-1.21.10 (itemflicker)
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.50-beta (neoforge)
+[17:21:51] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/arseniyradaev/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[17:21:51] [main/INFO] (FMLLoader) Loading FML Plugins:
+[17:21:51] [main/INFO] (FMLLoader)  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.10.50-beta.jar
+[17:21:51] [main/INFO] (unprotect) Initializing Unprotect using FancyModLoader backend, target: Minecraft and loader classes (minecraft+forge)
+[17:21:51] [main/INFO] (FMLLoader) Building game content classloader:
+ - architectury (jar(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/.gradle/loom-cache/remapped_mods/remapped/dev/architectury/architectury-neoforge-d73ba8eb/18.0.6/architectury-neoforge-d73ba8eb-18.0.6.jar))
+ - cloth_config (jar(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/.gradle/loom-cache/remapped_mods/remapped/me/shedaniel/cloth/cloth-config-neoforge-d73ba8eb/20.0.149/cloth-config-neoforge-d73ba8eb-20.0.149-neoforge.jar))
+ - generated_b394c20 (jar(/private/var/folders/b_/cxn8yk8s5pl079xlzj6txdjm0000gn/T/2522686290825259085.jar))
+ - itemflicker (composite(folder(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/resources/main), folder(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/classes/java/main)))
+ - minecraft (composite(jar(/Users/arseniyradaev/.gradle/caches/fabric-loom/1.21.10/neoforge/21.10.50-beta/client-extra.jar), filtered(jar(/Users/arseniyradaev/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/neoforge-21.10.50-beta-minecraft-merged/1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta/neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar))))
+ - mixinextras.neoforge (jar(/Users/arseniyradaev/.gradle/caches/modules-2/files-2.1/io.github.llamalad7/mixinextras-neoforge/0.5.0/d734b83ce6542bb70ea31755c1595b88992dbe65/mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(/Users/arseniyradaev/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/neoforge-21.10.50-beta-minecraft-merged/1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta/neoforge-21.10.50-beta-minecraft-merged-1.21.10-loom.mappings.1_21_10.layered+hash.40359-v2-neoforge-21.10.50-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+[17:21:51] [main/INFO] (FMLLoader) Built game content classloader in 12ms
+[17:21:51] [main/WARN] (MixinFacade) Mod file composite(folder(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/resources/main), folder(/Users/arseniyradaev/Documents/IdeaProjects/Item Flicker/Item Flicker 1.21.10/neoforge/build/classes/java/main)) declares mixin config itemflicker.mixins.json, but it actually comes from jar(/private/var/folders/b_/cxn8yk8s5pl079xlzj6txdjm0000gn/T/2522686290825259085.jar)
+[17:21:51] [main/INFO] (unprotect) Found 9922 Minecraft classes
+[17:21:52] [Datafixer Bootstrap/INFO] (Minecraft) 281 Datafixer optimizations took 159 milliseconds
+[17:21:52] [pool-14-thread-1/INFO] (MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [main/WARN] (Minecraft) Ambiguity between arguments [waypoint, modify, waypoint, color, reset] and [waypoint, modify, waypoint, color, color] with inputs: [reset]
+[17:21:56] [modloading-worker-0/INFO] (NeoForgeMod) NeoForge mod loading, version 21.10.50-beta, for MC 1.21.10
+[17:21:56] [modloading-worker-0/ERROR] (FMLModContainer) Failed to register automatic subscribers. ModID: architectury
+java.lang.NoClassDefFoundError: net/neoforged/neoforge/client/event/ContainerScreenEvent$Render$Background
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3650) ~[?:?]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2735) ~[?:?]
+	at net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$4(AutomaticEventSubscriber.java:56) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) ~[?:?]
+	at net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:47) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:129) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$constructMods$1(ModLoader.java:130) ~[loader-10.0.29.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$5(ModLoader.java:208) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:978) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:955) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:527) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1460) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2036) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:189) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.neoforged.neoforge.client.event.ContainerScreenEvent$Render$Background
+	at net.neoforged.fml.classloading.ModuleClassLoader.loadClass(ModuleClassLoader.java:254) ~[loader-10.0.29.jar:10.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	... 16 more
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) The mod cloth_config uses the @OnlyIn annotation; the runtime member-stripping behaviour of this annotation is no longer present, which may lead to issues if that behaviour was relied upon
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.DropdownBoxEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.KeyBindingHooks
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicElementListWidget$ElementEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.TextDescriptionBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.EnumListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.FieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.ConfigBuilderImpl
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.registry.api.GuiTransformer
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.FloatListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.DoubleListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.AbstractListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.TextListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.StringFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.math.impl.PointHelper
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.StringListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.LongFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.ModifierKeyCode
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.NestedListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.registry.ComposedGuiRegistryAccess
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.MultiElementListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.DoubleFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.registry.api.GuiProvider
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.AbstractConfigListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.BooleanToggleBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.GameOptionsHooks
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.TextFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.registry.GuiRegistry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.LongListBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.TextFieldListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.ConfigEntryBuilderImpl
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.LongListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.DoubleListBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.ColorFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.SelectionListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.IntegerSliderEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.ConfigBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicSmoothScrollingEntryListWidget
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.ConfigScreenProvider
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.ConfigCategoryImpl
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.FloatListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.ModifierKeyCodeImpl
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.KeyCodeBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on method me.shedaniel.autoconfig.AutoConfig.getConfigScreen(Ljava/lang/Class;Lnet/minecraft/client/gui/screens/Screen;)Ljava/util/function/Supplier;
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on method me.shedaniel.autoconfig.AutoConfig.getGuiRegistry(Ljava/lang/Class;)Lme/shedaniel/autoconfig/gui/registry/GuiRegistry;
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicEntryListWidget
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.IntListBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.FloatListBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.IntFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.IntegerListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.IntSliderBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.DefaultGuiTransformers
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.IntegerListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.ClothConfigScreen
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.ClothRequiresRestartScreen
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.registry.api.GuiRegistryAccess
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.BaseListCell
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.LongSliderEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicNewSmoothScrollingEntryListWidget
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on method me.shedaniel.autoconfig.example.ExampleInits.exampleClientInit()V
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.BooleanListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.DoubleListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.LongListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.ConfigCategory
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.AutoConfig$ClientOnly
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.TooltipListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.StringListBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.SelectorBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.KeyCodeEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.LongSliderBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.ClothConfigInitializer
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.ConfigEntryBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.StringListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.autoconfig.gui.DefaultGuiProviders
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.ClothConfigTabButton
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicEntryListWidget$Entries
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.AbstractTextFieldListListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.FloatFieldBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.Modifier
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.DropdownMenuBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.BaseListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.SubCategoryBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.api.AbstractConfigEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.entries.SubCategoryListEntry
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicElementListWidget
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.impl.builders.EnumSelectorBuilder
+[17:21:56] [modloading-worker-0/ERROR] (OnlyInWarningsHandler) @OnlyIn used on class me.shedaniel.clothconfig2.gui.widget.DynamicEntryListWidget$Entry
+[17:21:56] [main/FATAL] (ModLoader) Failed to wait for future Mod Construction, 1 errors found
+[17:21:56] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[17:21:56] [Render thread/INFO] (Minecraft) Setting user: Dev
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDebugEntriesEvent to a broken mod state
+[17:21:56] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3+5
+[17:21:56] [Render thread/WARN] (Minecraft) Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ConfigureGpuDeviceEvent to a broken mod state
+[17:21:56] [Render thread/INFO] (Minecraft) Using optional rendering extensions: 
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ConfigureMainRenderTargetEvent to a broken mod state
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemModelsEvent to a broken mod state
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpecialModelRendererEvent to a broken mod state
+[17:21:56] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ItemTintSources to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSelectItemModelPropertyEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterConditionalItemModelPropertyEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRangeSelectItemModelPropertyEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterSpriteSourcesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterTextureAtlasesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.ModelEvent$RegisterLoaders to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderBuffersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleGroupsEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPictureInPictureRenderersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterMenuScreensEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterJsonAnimationTypesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterBlockStateModels to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.InitializeClientRegistriesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.AddClientReloadListenersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.renderstate.RegisterRenderStateModifiersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRecipeBookSearchCategoriesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterGuiLayersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.gui.map.RegisterMapDecorationRenderersEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterDimensionTransitionScreenEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.event.RegisterRenderPipelinesEvent to a broken mod state
+[17:21:57] [Render thread/ERROR] (ModLoader) Cowardly refusing to send event net.neoforged.neoforge.client.pipeline.RegisterPipelineModifiersEvent to a broken mod state
+[17:21:58] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla
+[17:21:58] [resourceLoad/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[17:21:58] [resourceLoad/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[17:21:58] [resourceLoad/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[17:21:58] [Render thread/FATAL] (NeoForgeMod) Preparing crash report with UUID 0272c26e-aff2-4152-b957-6a7db241a772
+[17:21:58] [Render thread/FATAL] (NeoForgeMod) Preparing crash report with UUID d1ed5948-7e91-43ce-a849-d986a26d3a66
